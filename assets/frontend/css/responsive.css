@@ -1,0 +1,275 @@
+/* ================================================================
+    Author       : WPxpart
+    Template Name: Toller - One Page HTML Template
+    Tags: Corporate, business, landing, one page, multipurpose Template, HTML 
+    Version      : 1.0
+=================================================================*/
+
+/*===================================================
+                Responsive Css
+=====================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.mid-content {
+		width: 100%;
+	}
+	.mid-content h3 {
+		font-size: 35px;
+		margin-bottom: 9px;
+	}
+	.home-blog-content h3 a {
+		font-size: 14px;
+	}
+}
+/*===========================================
+	Tab responsive
+=============================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	h2 {
+		font-size: 22px;
+	}
+	.site-header.sticky #main-menu ul li a {
+		line-height: 70px;
+	}
+	#main-menu ul li a {
+		line-height: 70px;
+		display: inline-block;
+		font-size: 12px;
+	}
+	.site-header.sticky a.logo {
+		padding: 21px 0;
+	}
+	.site-header.sticky #main-menu ul li a {
+		line-height: 60px;
+		padding-top: 9px;
+	}
+	.section-title p {
+		padding: 0px 35px;
+	}
+	.mid-content h3 {
+		font-size: 25px;
+		margin-bottom: 11px;
+	}
+	.service-wrapper h3 {
+		font-size: 10px;
+	}
+	.service-icon i {
+		font-size: 21px;
+	}
+	.about-details h3 {
+		font-size: 19px;
+	}
+	.single-winner span {
+		font-size: 30px;
+	}
+	.purchase-details h3 {
+		margin-top: 28px;
+	}
+	.col-md-4:nth-last-child(-n+3) .single-item {
+		margin-bottom: 14px;
+	}
+	.home-blog-content {
+		margin-bottom: 18px;
+	}
+	.contact-form {
+		margin-top: 35px;
+	}
+	.home-blog-content h3 a {
+		font-size: 13px;
+		line-height: 25px;
+	}
+	ul.admin-date li {
+		margin-right: 18px;
+		font-size: 12px;
+	}
+	.blog-right-sidebar {
+		margin-top: 60px;
+	}
+}
+/*=========================================
+    SMart Phone Device
+===========================================*/
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+	h2 {
+		font-size: 17px;
+		letter-spacing: 1px;
+	}
+	.section-title p {
+		padding: 0px 0px;
+	}
+	#main-menu ul li a {
+		font-size: 13px;
+		line-height: 40px;
+		display: inline-block;
+	}
+	.site-header {
+		background: transparent;
+		position: fixed;
+		z-index: 111111;
+		width: 100%;
+	}
+	.site-header.sticky #main-menu ul li a {
+		font-size: 13px;
+		line-height: 40px;
+		display: inline-block;
+		color: #fff;
+	}
+	.navbar-right {
+		float: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+	#main-menu {
+		overflow: hidden;
+		background: #434334;
+	}
+	.section-title h2 {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.mid-content {
+		width: 100%;
+	}
+	.mid-content h3 {
+		font-size: 13px;
+		line-height: 24px;
+	}
+	.button-header a {
+		padding: 10px 26px;
+		font-size: 12px;
+	}
+	.about-details h3 {
+		font-size: 17px;
+	}
+	.about-img {
+		margin-top: 31px;
+	}
+	.col-md-4:nth-last-child(-n+3) .service-wrapper {
+		margin-bottom: 65px;
+	}
+	.single-winner {
+		margin-bottom: 30px;
+	}
+	.single-winner span {
+		font-size: 27px;
+		margin-top: 7px;
+	}
+	.purchase-details h3 {
+		font-size: 12px;
+		margin-top: 30px;
+	}
+	.work-filter li {
+		margin-left: 17px;
+		font-size: 11px;
+		padding: 4px 9px;
+	}
+	.col-md-4:nth-last-child(-n+3) .single-item {
+		margin-bottom: 14px;
+	}
+	.team-wrapper {
+		margin-bottom: 20px;
+	}
+	.get-wrapper h3 {
+		font-size: 17px;
+		line-height: 30px;
+	}
+	.price-wrapper {
+		margin-bottom: 13px;
+	}
+	.home-blog-content {
+		margin-bottom: 30px;
+	}
+	.home-blog-content h3 a {
+		font-size: 13px;
+		line-height: 28px;
+	}
+	.client-details {
+		padding: 40px 0px;
+	}
+	.contact-form {
+		margin-top: 40px;
+	}
+	ul.social-icons li a {
+		font-size: 13px;
+		padding: 9px 5px;
+	}
+	.blog-header-title h1 {
+		font-size: 20px;
+	}
+	.blog-page-meta span {
+		font-size: 11px;
+	}
+	.blog-page-meta span a {
+		font-size: 11px;
+	}
+	.blog-post-area h3 a {
+		font-size: 13px;
+	}
+	.blog-right-sidebar {
+		margin-top: 60px;
+	}
+	.recent-details h4 a {
+		font-size: 12px;
+		line-height: 21px;
+	}
+	.single-blog-post-area h3 {
+		font-size: 15px;
+		line-height: 27px;
+	}
+	.blog-page-meta span {
+		font-size: 11px;
+		line-height: 24px;
+	}
+	.commennts-details {
+		display: block;
+		padding: 0px 0px;
+	}
+	#comment-reply {
+		margin-left: 0px;
+		padding: 10px 10px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.site-header {
+		background: transparent;
+		position: fixed;
+		z-index: 111111;
+		width: 100%;
+	}
+	.section-title h2 {
+		position: relative;
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.button-header a.buy-now {
+		padding: 10px 28px;
+	}
+	.mid-content h3 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.work-filter li {
+		margin-left: 17px;
+		font-size: 12px;
+		padding: 5px 13px;
+	}
+	.home-blog-content h3 a {
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.client-details {
+		padding: 40px 10px;
+	}
+	.blog-post-area h3 a {
+		font-size: 15px;
+	}
+	.blog-page-meta span {
+		font-size: 13px;
+	}
+	.blog-page-meta span a {
+		font-size: 13px;
+	}
+}
